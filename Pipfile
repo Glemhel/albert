@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+hivemind = "*"
+transformers = "~=4.6"
+datasets = "*"
+torch-optimizer = "==0.1.0"
+wandb = "*"
+sentencepiece = "*"
+requests = "*"
+nltk = "==3.6.7"
+torch = "<=1.13"
+accelerate = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
+python_full_version = "3.9.19"

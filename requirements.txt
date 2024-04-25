@@ -1,0 +1,10 @@
+hivemind
+transformers~=4.6
+datasets
+torch_optimizer==0.1.0
+wandb
+sentencepiece
+requests
+nltk==3.6.7
+torch <= 1.13
+accelerate
