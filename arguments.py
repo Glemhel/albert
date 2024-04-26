@@ -110,10 +110,10 @@ class OptimizerArguments:
         metadata={"help": "Available network bandwidth, in mbps (used for load balancing in all-reduce)"},
     )
     averaging_timeout: float = field(
-        default=60.0, metadata={"help": "Give up on averaging step after this many seconds"}
+        default=300.0, metadata={"help": "Give up on averaging step after this many seconds"}
     )
     matchmaking_time: float = field(
-        default=20.0, metadata={"help": "When looking for group, wait for requests for at least this many seconds"}
+        default=120.0, metadata={"help": "When looking for group, wait for requests for at least this many seconds"}
     )
     assist_refresh: float = field(default=5.0, metadata={"help": "Period (in seconds) for tryin to assist averaging"})
 
